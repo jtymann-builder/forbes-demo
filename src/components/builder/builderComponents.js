@@ -355,7 +355,7 @@ const builderComponents = [
       {
         name: 'spacing',
         type: 'string',
-        defaultValue: 'md',
+        defaultValue: 'none',
         friendlyName: 'Vertical Spacing',
         enum: ['none', 'sm', 'md', 'lg'],
       },

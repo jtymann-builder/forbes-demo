@@ -4,7 +4,7 @@ export default function Divider({
   width = 'full',
   thickness = 'medium',
   align = 'left',
-  spacing = 'md',
+  spacing = 'none',
 }) {
   return (
     <div className={`builder-divider builder-divider--align-${align} builder-divider--spacing-${spacing}`}>
