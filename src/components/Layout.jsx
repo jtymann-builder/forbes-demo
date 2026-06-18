@@ -102,6 +102,11 @@ export default function Layout({ children }) {
                 </HeaderMenuItem>
               </HeaderNavigation>
               <HeaderGlobalBar>
+                <HeaderGlobalAction aria-label="Component Gallery" tooltipAlignment="center" onClick={() => navigate("/gallery")}>
+                  <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <path d="M7.5 2H4a2 2 0 0 0-2 2v3.5c0 .28.22.5.5.5H4a1.5 1.5 0 0 1 0 3H2.5c-.28 0-.5.22-.5.5V14a2 2 0 0 0 2 2h3.5c.28 0 .5-.22.5-.5V14a1.5 1.5 0 0 1 3 0v1.5c0 .28.22.5.5.5H14a2 2 0 0 0 2-2v-3.5c0-.28-.22-.5-.5-.5H14a1.5 1.5 0 0 1 0-3h1.5c.28 0 .5-.22.5-.5V4a2 2 0 0 0-2-2h-3.5c-.28 0-.5.22-.5.5V4a1.5 1.5 0 0 1-3 0V2.5c0-.28-.22-.5-.5-.5z" fill="currentColor"/>
+                  </svg>
+                </HeaderGlobalAction>
                 <HeaderGlobalAction aria-label="Search">
                   <Search size={20} />
                 </HeaderGlobalAction>
