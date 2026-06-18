@@ -337,7 +337,7 @@ const builderComponents = [
       {
         name: 'width',
         type: 'string',
-        defaultValue: 'short',
+        defaultValue: 'full',
         enum: ['short', 'medium', 'full'],
       },
       {

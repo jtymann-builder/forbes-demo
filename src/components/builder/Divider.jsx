@@ -1,7 +1,7 @@
 import './Divider.scss';
 
 export default function Divider({
-  width = 'short',
+  width = 'full',
   thickness = 'medium',
   align = 'left',
   spacing = 'md',
