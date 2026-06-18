@@ -31,7 +31,7 @@ export default function App() {
   return (
     <Layout>
       <Routes>
-        <Route path="/" element={<LandingPage />} />
+        <Route path="/" element={<BuilderPage />} />
         <Route path="/gallery" element={<ComponentGalleryPage />} />
         <Route path="/login" element={<LoginPage />} />
         <Route path="/signup" element={<SignUpPage />} />
