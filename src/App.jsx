@@ -32,6 +32,7 @@ export default function App() {
     <Layout>
       <Routes>
         <Route path="/" element={<BuilderPage />} />
+        <Route path="/static" element={<LandingPage />} />
         <Route path="/gallery" element={<ComponentGalleryPage />} />
         <Route path="/login" element={<LoginPage />} />
         <Route path="/signup" element={<SignUpPage />} />
