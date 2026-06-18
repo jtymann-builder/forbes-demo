@@ -18,7 +18,7 @@ export default function BuilderPage() {
     fetchOneEntry({
       model: 'page',
       apiKey: BUILDER_API_KEY,
-      userAttributes: { urlPath: location.pathname },
+      query: { 'data.url': location.pathname },
     }).then((entry) => {
       if (entry || isPreviewing()) {
         setContent(entry);

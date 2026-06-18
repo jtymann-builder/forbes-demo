@@ -1,0 +1,32 @@
+@use '../../styles/tokens' as *;
+
+.builder-divider {
+  width: 100%;
+
+  &--align-left   { display: flex; justify-content: flex-start; }
+  &--align-center { display: flex; justify-content: center; }
+  &--align-right  { display: flex; justify-content: flex-end; }
+
+  &--spacing-none { padding: 0; }
+  &--spacing-sm { padding: var(--spacing-02) 0; }
+  &--spacing-md { padding: var(--spacing-04) 0; }
+  &--spacing-lg { padding: var(--spacing-06) 0; }
+}
+
+.builder-divider__line {
+  border: none;
+  background: var(--interactive-primary);
+  display: block;
+  margin: 0;
+  border-radius: 2px;
+
+  // Width variants
+  &.builder-divider--width-short  { width: 48px; }
+  &.builder-divider--width-medium { width: 80px; }
+  &.builder-divider--width-full   { width: 100%; }
+
+  // Thickness variants
+  &.builder-divider--thickness-thin   { height: 2px; }
+  &.builder-divider--thickness-medium { height: 4px; }
+  &.builder-divider--thickness-thick  { height: 6px; }
+}

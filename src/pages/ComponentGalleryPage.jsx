@@ -8,6 +8,7 @@ import BuilderHeading from '../components/builder/BuilderHeading';
 import BuilderEyebrow from '../components/builder/BuilderEyebrow';
 import BuilderSubtitle from '../components/builder/BuilderSubtitle';
 import BuilderBody from '../components/builder/BuilderBody';
+import Divider from '../components/builder/Divider';
 import './ComponentGalleryPage.scss';
 
 // ── Component definitions ────────────────────────────────────────────────────
@@ -212,6 +213,35 @@ const COMPONENTS = [
                 ctaUrl="/signup"
               />
             ),
+          },
+        ],
+      },
+    ],
+  },
+  {
+    group: 'Utility',
+    items: [
+      {
+        id: 'divider',
+        name: 'Divider',
+        description: 'A short decorative red line used to accent sections or separate content blocks. Configurable width, thickness, alignment, and vertical spacing.',
+        inputs: 'width (short | medium | full), thickness (thin | medium | thick), align (left | center | right), spacing (none | sm | md | lg)',
+        variants: [
+          {
+            label: 'Short — left aligned (default)',
+            render: () => <Divider width="short" thickness="medium" align="left" spacing="md" />,
+          },
+          {
+            label: 'Short — centered',
+            render: () => <Divider width="short" thickness="medium" align="center" spacing="md" />,
+          },
+          {
+            label: 'Medium — centered · thick',
+            render: () => <Divider width="medium" thickness="thick" align="center" spacing="md" />,
+          },
+          {
+            label: 'Full width — thin',
+            render: () => <Divider width="full" thickness="thin" align="left" spacing="sm" />,
           },
         ],
       },

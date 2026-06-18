@@ -1,4 +1,5 @@
 import HeroSection from './HeroSection';
+import Divider from './Divider';
 import BenefitCard from './BenefitCard';
 import SplitHero from './SplitHero';
 import TestimonialsSection from './TestimonialsSection';
@@ -324,6 +325,39 @@ const builderComponents = [
         friendlyName: 'Icon Position',
         enum: ['left', 'right'],
         showIf: "options.get('icon') !== 'None'",
+      },
+    ],
+  },
+  // ── Utility ─────────────────────────────────────────────────────────────────
+  {
+    component: Divider,
+    name: 'Divider',
+    image: toDataURI(`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 36"><rect x="4" y="16" width="20" height="4" rx="2" fill="none" stroke="#da1e28" stroke-width="1.5"/></svg>`),
+    inputs: [
+      {
+        name: 'width',
+        type: 'string',
+        defaultValue: 'full',
+        enum: ['short', 'medium', 'full'],
+      },
+      {
+        name: 'thickness',
+        type: 'string',
+        defaultValue: 'medium',
+        enum: ['thin', 'medium', 'thick'],
+      },
+      {
+        name: 'align',
+        type: 'string',
+        defaultValue: 'left',
+        enum: ['left', 'center', 'right'],
+      },
+      {
+        name: 'spacing',
+        type: 'string',
+        defaultValue: 'none',
+        friendlyName: 'Vertical Spacing',
+        enum: ['none', 'sm', 'md', 'lg'],
       },
     ],
   },
