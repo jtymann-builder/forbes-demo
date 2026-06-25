@@ -24,12 +24,16 @@ import FinancialDashboard1 from "./pages/FinancialDashboard1";
 import FinancialDashboard2 from "./pages/FinancialDashboard2";
 import FinancialDashboard3 from "./pages/FinancialDashboard3";
 import FinancialDashboardOptions from "./pages/FinancialDashboardOptions";
+import BuilderPage from "./pages/BuilderPage";
+import ComponentGalleryPage from "./pages/ComponentGalleryPage";
 
 export default function App() {
   return (
     <Layout>
       <Routes>
-        <Route path="/" element={<LandingPage />} />
+        <Route path="/" element={<BuilderPage />} />
+        <Route path="/static" element={<LandingPage />} />
+        <Route path="/gallery" element={<ComponentGalleryPage />} />
         <Route path="/login" element={<LoginPage />} />
         <Route path="/signup" element={<SignUpPage />} />
         <Route path="/signup/confirmation" element={<SignUpConfirmationPage />} />
@@ -56,6 +60,9 @@ export default function App() {
         <Route path="/business/payments" element={<BusinessComingSoon />} />
         <Route path="/business/file-claim" element={<FileClaimPage />} />
         <Route path="/business/make-payment" element={<MakePaymentPage />} />
+
+        {/* Builder.io CMS catch-all — matches any URL not handled above */}
+        <Route path="*" element={<BuilderPage />} />
       </Routes>
     </Layout>
   );
