@@ -6,7 +6,7 @@ import './HeroSection.scss';
 export default function HeroSection({
   backgroundImage,
   headline = 'Protect Your Future with Confidence',
-  tagline = 'Comprehensive car and home insurance designed for the modern world.',
+  tagline = 'Comprehensive car and home coverage designed for the modern world.',
   primaryCtaText = 'Sign Up Now',
   primaryCtaUrl = '/signup',
   secondaryCtaText = 'Learn More',

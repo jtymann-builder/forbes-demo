@@ -80,12 +80,12 @@ export default function FinancialDashboardOptions() {
               </div>
               <h2>Option 3: Wild Creative</h2>
               <p className="option-description">
-                Bold, creative design breaking from traditional patterns with custom components and InsureCo branding.
+                Bold, creative design breaking from traditional patterns with custom components and JamesCo branding.
               </p>
               <ul className="option-features">
                 <li>Custom components (no Carbon constraints)</li>
                 <li>Dark theme with glassmorphism</li>
-                <li>Bold InsureCo red branding</li>
+                <li>Bold JamesCo red branding</li>
                 <li>Unique card grid layout</li>
               </ul>
               <div className="option-tags">

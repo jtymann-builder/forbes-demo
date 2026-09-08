@@ -166,7 +166,7 @@ const COMPONENTS = [
               <TestimonialsSection
                 sectionHeading="What Our Customers Say"
                 testimonials={[
-                  { quote: 'Switching to InsureCo was the easiest financial decision I ever made. The savings were immediate.', author: 'Sarah Johnson', role: 'Customer since 2022' },
+                  { quote: 'Switching to JamesCo was the easiest financial decision I ever made. The savings were immediate.', author: 'Sarah Johnson', role: 'Customer since 2022' },
                   { quote: 'Filed a claim after a fender-bender and had a check in two days. Incredible experience.', author: 'Marcus Lee', role: 'Customer since 2021' },
                   { quote: 'The dashboard makes managing my policies effortless. I love having everything in one place.', author: 'Priya Patel', role: 'Customer since 2023' },
                 ]}
@@ -197,7 +197,7 @@ const COMPONENTS = [
             render: () => (
               <BoldBanner
                 heading="Ready to Get Started?"
-                subtext="Join thousands of satisfied customers who trust InsureCo for their insurance needs."
+                subtext="Join thousands of satisfied customers who trust JamesCo for their coverage needs."
                 ctaText="Get Your Free Quote"
                 ctaUrl="/signup"
               />
@@ -208,7 +208,7 @@ const COMPONENTS = [
             render: () => (
               <BoldBanner
                 heading="Switch and Save Today"
-                subtext="Most customers save an average of $400 a year when they switch to InsureCo."
+                subtext="Most customers save an average of $400 a year when they switch to JamesCo."
                 ctaText="See My Savings"
                 ctaUrl="/signup"
               />

@@ -47,7 +47,7 @@ export default function Layout({ children }) {
 
         return (
           <>
-            <Header aria-label="InsureCo">
+            <Header aria-label="JamesCo">
               <SkipToContent />
               <HeaderMenuButton
                 aria-label={isSideNavExpanded ? "Close menu" : "Open menu"}
@@ -55,10 +55,10 @@ export default function Layout({ children }) {
                 isActive={isSideNavExpanded}
                 aria-expanded={isSideNavExpanded}
               />
-              <HeaderName onClick={() => navigate("/")} prefix="InsureCo">
-                Insurance
+              <HeaderName onClick={() => navigate("/")} prefix="">
+                JamesCo
               </HeaderName>
-              <HeaderNavigation aria-label="InsureCo Navigation">
+              <HeaderNavigation aria-label="JamesCo Navigation">
                 <HeaderMenuItem onClick={() => navigate("/")}>
                   Home
                 </HeaderMenuItem>
@@ -91,12 +91,6 @@ export default function Layout({ children }) {
                   </HeaderMenuItem>
                 </HeaderMenu>
 
-                <HeaderMenuItem onClick={() => navigate("/login")}>
-                  Login
-                </HeaderMenuItem>
-                <HeaderMenuItem onClick={() => navigate("/signup")}>
-                  Sign Up
-                </HeaderMenuItem>
                 <HeaderMenuItem onClick={() => navigate("/about")}>
                   About
                 </HeaderMenuItem>
@@ -189,12 +183,6 @@ export default function Layout({ children }) {
                       </SideNavMenuItem>
                     </SideNavMenu>
 
-                    <HeaderMenuItem onClick={() => handleNavigateAndClose("/login")}>
-                      Login
-                    </HeaderMenuItem>
-                    <HeaderMenuItem onClick={() => handleNavigateAndClose("/signup")}>
-                      Sign Up
-                    </HeaderMenuItem>
                     <HeaderMenuItem onClick={() => handleNavigateAndClose("/about")}>
                       About
                     </HeaderMenuItem>

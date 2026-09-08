@@ -5,7 +5,7 @@ import './BoldBanner.scss';
 
 export default function BoldBanner({
   heading = "Ready to Get Started?",
-  subtext = 'Join thousands of satisfied customers who trust InsureCo for their insurance needs.',
+  subtext = 'Join thousands of satisfied customers who trust JamesCo for their coverage needs.',
   ctaText = 'Get Your Free Quote',
   ctaUrl = '/signup',
 }) {

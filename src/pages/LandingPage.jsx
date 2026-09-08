@@ -28,7 +28,7 @@ export default function LandingPage() {
     {
       icon: <Security size={48} />,
       title: 'Comprehensive Coverage',
-      description: 'Protect what matters most with our comprehensive insurance plans tailored to your needs.',
+      description: 'Protect what matters most with comprehensive coverage plans tailored to your needs.',
     },
     {
       icon: <CheckmarkFilled size={48} />,
@@ -49,7 +49,7 @@ export default function LandingPage() {
 
   const testimonials = [
     {
-      quote: 'InsureCo made switching my insurance so easy. The process was smooth and the savings were immediate.',
+      quote: 'JamesCo made switching my coverage so easy. The process was smooth and the savings were immediate.',
       author: 'Sarah Johnson',
       role: 'Customer since 2022',
     },
@@ -59,7 +59,7 @@ export default function LandingPage() {
       role: 'Customer since 2021',
     },
     {
-      quote: 'Best insurance experience I\'ve had. The customer service is exceptional and the rates are competitive.',
+      quote: 'Best coverage experience I\'ve had. The customer service is exceptional and the rates are competitive.',
       author: 'Emily Rodriguez',
       role: 'Customer since 2023',
     },
@@ -76,17 +76,17 @@ export default function LandingPage() {
                 Protect Your Future with Confidence
               </Heading>
               <p className="hero-tagline">
-                Comprehensive car and home insurance designed for the modern world. 
-                Get covered in minutes with InsureCo.
+                Comprehensive car and home coverage designed for the modern world.
+                Get covered in minutes with JamesCo.
               </p>
               <div className="hero-actions">
                 <Button
                   kind="primary"
                   size="lg"
-                  onClick={() => navigate('/signup')}
+                  onClick={() => navigate('/dashboard')}
                   renderIcon={ArrowRight}
                 >
-                  Sign Up Now
+                  Get Started
                 </Button>
                 <Button
                   kind="secondary"
@@ -106,7 +106,7 @@ export default function LandingPage() {
         <Grid>
           <Column lg={16} md={8} sm={4}>
             <Heading className="section-heading">
-              Why Choose InsureCo?
+              Why Choose JamesCo?
             </Heading>
           </Column>
           {features.map((feature, index) => (
@@ -122,17 +122,17 @@ export default function LandingPage() {
       </section>
 
       {/* Car Insurance Section */}
-      <section id="car-insurance" className="product-section car-insurance-section">
+      <section id="car-coverage" className="product-section car-insurance-section">
         <Grid>
           <Column lg={8} md={4} sm={4}>
             <div className="product-content">
               <div className="product-icon">
                 <Car size={64} />
               </div>
-              <Heading className="product-heading">Car Insurance</Heading>
+              <Heading className="product-heading">Car Coverage</Heading>
               <p className="product-description">
-                Drive with confidence knowing you're protected. Our comprehensive auto insurance 
-                covers collision, liability, and more. Get instant quotes and customize your 
+                Drive with confidence knowing you're protected. Our comprehensive auto coverage
+                covers collision, liability, and more. Get instant quotes and customize your
                 coverage to match your needs.
               </p>
               <ul className="product-features">
@@ -143,7 +143,7 @@ export default function LandingPage() {
               </ul>
               <Button
                 kind="tertiary"
-                onClick={() => navigate('/signup')}
+                onClick={() => navigate('/dashboard')}
                 renderIcon={ArrowRight}
               >
                 Learn More
@@ -154,7 +154,7 @@ export default function LandingPage() {
             <div className="product-image">
               <img
                 src="https://images.pexels.com/photos/220309/pexels-photo-220309.jpeg?auto=compress&cs=tinysrgb&w=800"
-                alt="Modern blue sedan representing everyday auto insurance coverage"
+                alt="Modern blue sedan representing everyday auto coverage"
                 loading="lazy"
               />
             </div>
@@ -163,13 +163,13 @@ export default function LandingPage() {
       </section>
 
       {/* Home Insurance Section */}
-      <section id="home-insurance" className="product-section home-insurance-section">
+      <section id="home-coverage" className="product-section home-insurance-section">
         <Grid>
           <Column lg={8} md={4} sm={4}>
             <div className="product-image">
               <img
                 src="https://images.pexels.com/photos/7587856/pexels-photo-7587856.jpeg?auto=compress&cs=tinysrgb&w=800"
-                alt="Modern suburban home representing comprehensive home insurance protection"
+                alt="Modern suburban home representing comprehensive home coverage protection"
                 loading="lazy"
               />
             </div>
@@ -179,10 +179,10 @@ export default function LandingPage() {
               <div className="product-icon">
                 <HomeIcon size={64} />
               </div>
-              <Heading className="product-heading">Home Insurance</Heading>
+              <Heading className="product-heading">Home Coverage</Heading>
               <p className="product-description">
-                Protect your home and belongings with our comprehensive homeowners insurance. 
-                Coverage for property damage, personal liability, and more. Your peace of mind 
+                Protect your home and belongings with our comprehensive homeowners coverage.
+                Coverage for property damage, personal liability, and more. Your peace of mind
                 is our priority.
               </p>
               <ul className="product-features">
@@ -193,7 +193,7 @@ export default function LandingPage() {
               </ul>
               <Button
                 kind="tertiary"
-                onClick={() => navigate('/signup')}
+                onClick={() => navigate('/dashboard')}
                 renderIcon={ArrowRight}
               >
                 Learn More
@@ -234,12 +234,12 @@ export default function LandingPage() {
                 Ready to Get Started?
               </Heading>
               <p className="cta-text">
-                Join thousands of satisfied customers who trust InsureCo for their insurance needs.
+                Join thousands of satisfied customers who trust JamesCo for their coverage needs.
               </p>
               <Button
                 kind="primary"
                 size="lg"
-                onClick={() => navigate('/signup')}
+                onClick={() => navigate('/dashboard')}
                 renderIcon={ArrowRight}
               >
                 Get Your Free Quote
@@ -254,7 +254,7 @@ export default function LandingPage() {
         <Grid>
           <Column lg={4} md={2} sm={4}>
             <div className="footer-section">
-              <h4 className="footer-heading">InsureCo</h4>
+              <h4 className="footer-heading">JamesCo</h4>
               <p className="footer-description">
                 Protecting what matters most since 2020.
               </p>
@@ -264,9 +264,9 @@ export default function LandingPage() {
             <div className="footer-section">
               <h4 className="footer-heading">Products</h4>
               <ul className="footer-links">
-                <li><a href="#car-insurance">Car Insurance</a></li>
-                <li><a href="#home-insurance">Home Insurance</a></li>
-                <li><button onClick={() => navigate('/signup')} className="footer-link-button">Bundle & Save</button></li>
+                <li><a href="#car-coverage">Car Coverage</a></li>
+                <li><a href="#home-coverage">Home Coverage</a></li>
+                <li><button onClick={() => navigate('/dashboard')} className="footer-link-button">Bundle & Save</button></li>
               </ul>
             </div>
           </Column>
@@ -304,7 +304,7 @@ export default function LandingPage() {
         <Grid>
           <Column lg={16} md={8} sm={4}>
             <div className="footer-bottom">
-              <p>&copy; 2024 InsureCo. All rights reserved.</p>
+              <p>&copy; 2024 JamesCo. All rights reserved.</p>
             </div>
           </Column>
         </Grid>
@@ -345,7 +345,7 @@ export default function LandingPage() {
           <TextArea
             id="demo-message"
             labelText="Message (Optional)"
-            placeholder="Tell us about your insurance needs"
+            placeholder="Tell us about your coverage needs"
             rows={4}
           />
         </Stack>

@@ -47,7 +47,7 @@ export default function SignUpConfirmationPage() {
                   Application Submitted Successfully!
                 </Heading>
                 <p className="confirmation-subtitle">
-                  Thank you for choosing InsureCo
+                  Thank you for choosing JamesCo
                 </p>
               </div>
 

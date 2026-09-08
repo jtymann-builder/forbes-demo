@@ -3,7 +3,7 @@ import './TestimonialsSection.scss';
 
 const DEFAULT_TESTIMONIALS = [
   {
-    quote: 'InsureCo made switching my insurance so easy. The process was smooth and the savings were immediate.',
+    quote: 'JamesCo made switching my coverage so easy. The process was smooth and the savings were immediate.',
     author: 'Sarah Johnson',
     role: 'Customer since 2022',
   },
