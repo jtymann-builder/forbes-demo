@@ -602,9 +602,9 @@ export default function SignUpPage() {
     <Grid className="signup-page signup-container">
       <Column sm={4} md={8} lg={{ span: 12, offset: 2 }} xlg={{ span: 10, offset: 3 }}>
         <header className="signup-header">
-          <Heading className="signup-title">Sign Up for InsureCo</Heading>
+          <Heading className="signup-title">Sign Up for JamesCo</Heading>
           <p className="signup-subtitle">
-            Get started with your insurance coverage in just a few steps
+            Get started with your coverage in just a few steps
           </p>
         </header>
 

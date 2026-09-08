@@ -202,7 +202,7 @@ const builderComponents = [
         ],
         defaultValue: [
           {
-            quote: 'InsureCo made switching my insurance so easy.',
+            quote: 'JamesCo made switching my coverage so easy.',
             author: 'Sarah Johnson',
             role: 'Customer since 2022',
           },
@@ -216,7 +216,7 @@ const builderComponents = [
     image: toDataURI(icons.BoldBanner),
     inputs: [
       { name: 'heading', type: 'string', defaultValue: "Ready to Get Started?" },
-      { name: 'subtext', type: 'string', defaultValue: 'Join thousands of satisfied customers who trust InsureCo.' },
+      { name: 'subtext', type: 'string', defaultValue: 'Join thousands of satisfied customers who trust JamesCo.' },
       { name: 'ctaText', type: 'string', defaultValue: 'Get Your Free Quote' },
       { name: 'ctaUrl', type: 'string', defaultValue: '/signup' },
     ],

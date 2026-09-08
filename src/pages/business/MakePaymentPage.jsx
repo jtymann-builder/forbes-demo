@@ -421,7 +421,7 @@ export default function MakePaymentPage() {
                 <InlineNotification
                   kind="info"
                   title="Mail-in Check Instructions"
-                  subtitle="Please make checks payable to 'InsureCo Business Insurance' and mail to: PO Box 12345, San Francisco, CA 94102"
+                  subtitle="Please make checks payable to 'JamesCo Business' and mail to: PO Box 12345, San Francisco, CA 94102"
                   hideCloseButton
                   lowContrast
                 />

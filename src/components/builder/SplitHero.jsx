@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import './SplitHero.scss';
 
 export default function SplitHero({
-  heading = 'Insurance Heading',
+  heading = 'Coverage Heading',
   description = 'Describe the product here.',
   bullets = [],
   ctaText = 'Learn More',

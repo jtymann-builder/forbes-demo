@@ -42,7 +42,7 @@ export default function LoginPage() {
                   Welcome Back
                 </Heading>
                 <p className="login-subtitle">
-                  Sign in to access your InsureCo dashboard
+                  Sign in to access your JamesCo dashboard
                 </p>
               </div>
 
